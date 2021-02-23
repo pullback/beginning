@@ -1,0 +1,7 @@
+1. Delete & reinstall korean language pack.
+2. For 'Input Sources' use 'Korean(Hangul)' only.
+3. In 'IBusHangul Setup', set toggle keys.
+4. xmodmap [.Xmodmap]
+
+Ref.
+https://jimnong.tistory.com/939

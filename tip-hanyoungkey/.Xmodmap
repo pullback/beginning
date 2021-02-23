@@ -1,0 +1,5 @@
+remove mod1 = 0x6c
+remove control = 0x69
+
+keycode 0x6c = Hangul
+keycode 0x69 = Hangul_Hanja
