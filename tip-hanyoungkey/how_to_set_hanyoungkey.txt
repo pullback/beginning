@@ -1,6 +1,15 @@
+[Using Tweaks]
+0. Ubuntu 20.04
+1. Tweaks -> Keyboard & Mouse -> Additional Layout Options -> korean hangul/hanja keys
+
+Ref.
+https://askubuntu.com/questions/1255722/is-there-a-gui-for-remapping-the-keyboard-in-ubuntu-20-04-lts
+
+[Using xmodmap]
 1. Delete & reinstall korean language pack.
 2. For 'Input Sources' use 'Korean(Hangul)' only.
 3. In 'IBusHangul Setup', set toggle keys.
+3-1. For ubuntu 18.04, do reboot.
 4. xmodmap [.Xmodmap]
 
 Ref.
