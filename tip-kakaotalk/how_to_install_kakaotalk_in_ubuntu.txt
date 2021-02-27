@@ -25,6 +25,7 @@ Ref.
 [Create desktop shortcut]
 1. In ~/.local/share/application/, create .desktop file.
 eg) kakaotalk.desktop
+  [Desktop Entry]
   Type=Application
   Name=kakaotalk
   Terminal=false
