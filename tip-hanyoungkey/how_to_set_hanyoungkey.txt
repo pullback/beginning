@@ -1,4 +1,4 @@
-[Using Tweaks]
+[Using Tweaks] (Recommended)
 0. Ubuntu 20.04
 1. Tweaks -> Keyboard & Mouse -> Additional Layout Options -> korean hangul/hanja keys
 

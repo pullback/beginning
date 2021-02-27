@@ -1,0 +1,41 @@
+[Install kakaotalk]
+0. Download kakaotalk binary for windows.
+1. Install playonlinux (via apt).
+2. Tools 
+  > Manage Wine Versions 
+  > Wine Versions (amd64) 
+  > select & install 5.20.
+3. Install a program 
+  > Install a non-listed program 
+  > Check all three boxes
+  > 5.20
+  > 64 bits
+  > install all the things for .NET
+  > windows 10
+  > POL_Install_gdiplus, gecko, mono28
+  > Follow kakaotalk install wizard with UNCHECKING all checkboxes
+4. Run kakaotalk
+
+Note.
+  If RECV_SOCKET_ERROR occurs, rerun kakaotalk several times.
+
+Ref.
+  https://jaynray.com/2020/11/19/1030/
+
+[Create desktop shortcut]
+1. In ~/.local/share/application/, create .desktop file.
+eg) kakaotalk.desktop
+  Type=Application
+  Name=kakaotalk
+  Terminal=false
+  Exec=playonlinux --run <shortcut name for kakaotalk>
+2. Use desktop-file-validate & desktop-file-install to validate & install .desktop file.
+eg) sudo desktop-file-install kakaotalk.desktop
+3. Check Desktop Icon for kakaotalk.
+4. Right click > allow launching
+
+Ref.
+  https://askubuntu.com/questions/1232612/how-to-make-a-desktop-shortcuts-on-ubuntu-20-04
+
+[Add kakaotalk to favorites]
+...
